@@ -1,7 +1,7 @@
 body {
   font-family: Georgia, "Times New Roman", Times, sans-serif;
   font-size: medium;
-  background-color: cornflowerblue;
+  background-color:darkgrey;
   display: flex;
   flex-direction: column;
 }
@@ -10,7 +10,7 @@ body header {
   background-color: cornflowerblue;
 }
 
-body nav h2 {
+body h2 {
   background-color: rgb(45, 45, 212);
   color: white;
 }
@@ -23,12 +23,21 @@ body footer {
 body section {
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
 }
 
-body .section1 {
+body section .div1 {
   background-color: cornflowerblue;
+  flex-basis: 50%;
 }
 
-body .section2 {
+body section .div2 {
   background-color: rgb(17, 165, 165);
+  flex-basis: 50%;
+}
+
+body nav ol li {
+  display: inline;
+  list-style: none;
+  padding-left: 10px;
 }
