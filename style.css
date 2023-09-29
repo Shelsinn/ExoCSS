@@ -2,17 +2,18 @@ body {
   font-family: Georgia, "Times New Roman", Times, sans-serif;
   font-size: medium;
   background-color: darkgrey;
-  display: flex;
-  flex-direction: column;
+  margin: auto;
 }
 
 body header {
   background-color: cornflowerblue;
+  text-align: center;
 }
 
 body h2 {
   background-color: rgb(45, 45, 212);
   color: white;
+  text-align: center;
 }
 
 body footer {
@@ -24,16 +25,23 @@ body section {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
+  height: fit-content;
 }
 
 body section .div1 {
   background-color: cornflowerblue;
-  flex-basis: 50%;
+  flex-basis: 65%;
 }
 
 body section .div2 {
-  background-color: rgb(17, 165, 165);
-  flex-basis: 50%;
+  background: linear-gradient(
+    to bottom,
+    rgb(17, 165, 165) 0%,
+    rgb(17, 165, 165) 50%,
+    white 50%,
+    white 100%
+  );
+  flex-basis: 35%;
 }
 
 body nav ol li {
