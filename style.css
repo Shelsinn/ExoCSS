@@ -10,12 +10,14 @@ body {
 body header {
   background-color: cornflowerblue;
   text-align: center;
+  margin: 0;
 }
 
 body h2 {
   background-color: rgb(45, 45, 212);
   color: white;
   text-align: center;
+  margin: 0;
 }
 
 body footer {
@@ -28,28 +30,30 @@ body section {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
+  margin: auto;
 }
 
 body section .div1 {
   background-color: cornflowerblue;
   flex-basis: 65%;
-  height: 700px;
+  height: auto;
 }
 
 body section .div2 {
   background-color: rgb(17, 165, 165);
   flex-basis: 35%;
-  height: 350px;
+  height: auto;
 }
 
 body nav ol li {
   display: inline;
   list-style: none;
-  padding-left: 10px;
   margin: auto;
 }
 
 body nav ol {
   background-color: rgb(45, 45, 212);
   color: white;
+  text-align: center;
+  margin: auto;
 }
