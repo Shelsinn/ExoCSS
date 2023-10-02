@@ -66,3 +66,11 @@ body nav ol li {
   list-style: none;
   margin: auto;
 }
+
+body nav:hover {
+  opacity: 0.5;
+}
+
+body h2:hover {
+  opacity: 0.5;
+}
