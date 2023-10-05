@@ -11,6 +11,7 @@ body header {
   background-color: cornflowerblue;
   text-align: center;
   margin: 0;
+  border-radius: 10px;
 }
 
 body h2 {
@@ -68,9 +69,5 @@ body nav ol li {
 }
 
 body nav:hover {
-  opacity: 0.5;
-}
-
-body h2:hover {
   opacity: 0.5;
 }
