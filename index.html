@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Test CSS</title>
   </head>
   <body>
@@ -20,7 +20,7 @@
     </nav>
     <section>
       <div class="div1">
-        <p>Zone de contenu principale du site.</p>
+        <h3>Zone de contenu principale du site.</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
           sed vero excepturi et nihil labore, recusandae cum nobis molestias
@@ -100,6 +100,37 @@
         </div>
       </div>
     </section>
+    <form>
+      <fieldset>
+        <legend>Informations personnelles</legend>
+        <label>Nom:</label>
+        <input type="text"><br><br>
+        <label>E-mail:</label>
+        <input type="email"><br><br>
+        <label>Date de naissance:</label>
+        <input type="date"><br><br>
+        <label>Lieu de naissance:</label>
+        <input type="text"><br><br>
+        <label>Votre message:</label>
+        <textarea></textarea><br><br>
+        <button type="button">Envoyer</button>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Cours</legend>
+        <select>
+          <optgroup label="Livres">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+          </optgroup>
+          <optgroup label="Snippets">
+            <option value="git">Git</option>
+            <option value="java">Java</option>
+          </optgroup>
+        </select>
+      </fieldset>
+    </form>
     <footer>
       <p>Bas-de-page du site.</p>
     </footer>
